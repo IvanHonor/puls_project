@@ -6,3 +6,15 @@
     text-transform: uppercase;
     color: #0d0d0d;
 }
+@media (max-width: $medium) {
+    .title{
+       font-size: 27px; 
+    }
+    
+}
+@media (max-width: $small) {
+    .title{
+       font-size: 23px; 
+    }
+    
+}

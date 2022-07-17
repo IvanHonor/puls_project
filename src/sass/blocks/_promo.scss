@@ -54,7 +54,55 @@
             color: #fff;
             text-decoration: underline;
         }
-    }
-   
-    
+    }    
 }
+
+
+@media (max-width: $medium) {
+    .promo {
+        background-position-x:left ;
+        padding-bottom: 30px;
+        &__header {
+            font-size: 35px;
+            line-height: 35px;
+        }
+        &__link {
+            margin-top: 14px;
+            a {
+              display: inline-block;  
+              line-height: 30px;
+            }
+        }
+    }
+
+}
+
+@media (max-width: $small) {
+    .promo {
+        background: url(../../img/bg1_mobile.jpg) center (center/cover) no-repeat;
+        
+        &__header {
+            font-size: 20px;
+            line-height: 20px;
+        }
+        &__subheader {
+            margin-top: 9px;
+            font-size: 14px;
+        }
+        &__icons {
+            width: 306px;
+        }
+        &__icon {
+            font-size: 12px;
+        }
+        &__link {
+            font-size: 15px;
+
+            margin-top: 10px;
+            a {
+                line-height: 22px;
+            }
+        }
+    } 
+}
+ 

@@ -35,3 +35,34 @@
         align-items: flex-end;
     }
 }
+
+
+
+@media (max-width: $medium) {
+    .header {
+        &__official {
+            display: none;
+        }
+        &__phone {
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media (max-width: $small) {
+    .header {
+        align-items: flex-start;
+        &__logo {
+            width: 150px;
+        }
+        &__phone {
+            height: 19px;
+            font-size: 15px;
+            line-height: 15px;
+            margin-bottom: 9px;
+        }
+    }
+
+}
