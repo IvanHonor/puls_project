@@ -13,6 +13,9 @@
     &_main {
         @include main_button;
     }
+    &_submit {
+        @include submit_button;
+    }
 }
 
 @media (max-width: $medium) {
@@ -22,6 +25,9 @@
         font-size: 14px;
         &_main {
             @include main_button;
+        }
+        &_submit {
+            @include submit_button;
         }
     }
 }
@@ -34,6 +40,9 @@
         &_main {
             width: 170px;
             height: 36px;
+        }
+        &_submit {
+            @include submit_button;
         }
     }
 }
