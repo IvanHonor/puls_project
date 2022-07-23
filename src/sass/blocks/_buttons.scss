@@ -16,6 +16,9 @@
     &_submit {
         @include submit_button;
     }
+    &_mini {
+        @include mini_button
+    }
 }
 
 @media (max-width: $medium) {
@@ -28,6 +31,9 @@
         }
         &_submit {
             @include submit_button;
+        }
+        &_mini {
+            @include mini_button
         }
     }
 }
@@ -43,6 +49,9 @@
         }
         &_submit {
             @include submit_button;
+        }
+        &_mini {
+            @include mini_button
         }
     }
 }

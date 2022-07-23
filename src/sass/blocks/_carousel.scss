@@ -55,6 +55,9 @@
 }
 @media (max-width: $medium) {
     .carousel {
+        .slick-dots {
+            padding-left: 0;
+        }
         &__inner {
             width: 100%;
         }
@@ -63,9 +66,11 @@
 @media (max-width: $small) {
     .carousel {
         .slick-dots {
+            
             button {
-                height: 10px; 
-                width: 7px;
+                
+                height: 13px; 
+                width: 13px;
             }
         }
     }

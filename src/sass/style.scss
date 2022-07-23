@@ -18,6 +18,8 @@
 @import 'blocks/consultation';
 @import 'blocks/forms';
 @import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/revies';
 
 
 @media (max-width: $large) {
@@ -34,7 +36,7 @@
 
 @media (max-width: $small) {
     .container {
-        width: 310px;
+        max-width: 90%;
         
     }
 }
