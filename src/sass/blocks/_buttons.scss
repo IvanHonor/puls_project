@@ -25,11 +25,22 @@
     }
 }
 
+@media (max-width: $large) {
+    .button {
+        &:hover {
+            box-shadow: none;
+        }
+    }
+}
+
 @media (max-width: $medium) {
     .button {
         width: 180px;
         height: 38px;
         font-size: 14px;
+        &:hover {
+            box-shadow: none;
+        }
         &_main {
             @include main_button;
         }
@@ -56,6 +67,11 @@
         }
         &_mini {
             @include mini_button
+        }
+        &_submit-form {
+            width: 85%;
+            height: 50px;
+            font-size: 14px;
         }
     }
 }

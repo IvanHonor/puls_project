@@ -55,6 +55,15 @@
         align-items:center;
     }
 }
+@media (max-width: $large) {
+    .footer {
+        &__social-item {
+            &:hover {
+                box-shadow: none;
+            }
+        }
+    }
+}
 
 @media (max-width: $medium) {
     .footer {

@@ -18,10 +18,18 @@
             margin-bottom: 20px;
         }
     }
+    &_mt25 {
+        margin-top: 25px;        
+    }
 }
 @media (max-width: $small) {
     .feed-form {
         width: 261px;
+        width: 100%;
+        align-items: center;
+        input {
+            width: 85%;
+        }
     }
     
    
