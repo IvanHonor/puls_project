@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.min.css">
     
 </head>
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="" class="header__logo">
@@ -63,9 +64,9 @@
 
     <section class="advantages">
         <div class="container">
-            <div class="title">
+            <h2 class="title">
                 НАШИ ПРЕИМУЩЕСТВА
-            </div>
+            </h2>
             <div class="advantages__wrepper">
                 <div class="advantages__benefit">
                     <img src="icons/screen2/cup_icon.png" alt="cup">
@@ -79,7 +80,7 @@
                     </div>
                 </div>
                 <div class="advantages__benefit">
-                    <img src="icons/screen2/heart_icon.png" alt="heart">
+                    <img src="icons/screen2/heart_icon.png" alt="heart" class="advantages__icon advantages__icon_animated">
                     <div class="advantages__text">
                         Заботимся о здоровье
                         <br>
@@ -126,7 +127,7 @@
         </div>
     </section>
 
-    <section class="carousel">
+    <div class="carousel">
         <div class="container">
             <div class="carousel__inner">
                 <div>
@@ -140,7 +141,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <section class="catalog">
         <div class="container">
@@ -585,8 +586,8 @@
             <div class="title">
                 отзывы клиентов
             </div>
-            <div class="revies__feedback">
-                <div class="revies__wrapper">
+            <div class="revies__feedback animate__animated animate__fadeInUp wow">
+                <div class="revies__wrapper ">
                     <div class="revies__icon"> 
                         <img src="icons/feedback/irina_icon.png" alt="irina" class="revies__img">
                     </div>
@@ -618,8 +619,8 @@
                     </div>
                 </div>
             </div>
-            <hr>
-            <div class="revies__feedback">
+            <hr class="animate__animated animate__fadeInUp animate__slower wow">
+            <div class="revies__feedback animate__animated animate__fadeInUp  wow">
                 <div class="revies__wrapper">
                     <div class="revies__icon"> 
                         <img src="icons/feedback/ivan_icon.png" alt="ivan" class="revies__img">
@@ -649,8 +650,8 @@
                     </div>
                 </div>
             </div>
-            <hr>
-            <div class="revies__feedback">
+            <hr class="animate__animated animate__fadeInUp animate__slower wow">
+            <div class="revies__feedback animate__animated animate__fadeInUp wow">
                 <div class="revies__wrapper">
                     <div class="revies__icon"> 
                         <img src="icons/feedback/julia_icon.png" alt="julia" class="revies__img">
@@ -751,12 +752,17 @@
             </div>
         </div>
     </div>
+    <a href="#up" class="pageup">
+       <img src="icons/angles-up-solid.svg" alt="up"> 
+    </a>    
+    
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
