@@ -1,6 +1,10 @@
 .footer {
     height: 630px;
     position: relative;
+    &__map {
+        width: 100%;
+        height: 100%
+    }
     &__info {
         padding: 50px 69px 60px 69px;
         position: absolute;
@@ -8,7 +12,7 @@
         left: 50%;
         transform: translateX(-50%);
         width: 460px;
-        height: 270px;
+        height: 250px;
         background-color: $main-color;
     }
     &__addr {
@@ -85,6 +89,7 @@
 
 @media (max-width: $small) {
     .footer {
+        height: 550px;
         &__info {
             top: 0;
             width: 100%;
